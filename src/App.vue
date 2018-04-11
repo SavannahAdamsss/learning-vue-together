@@ -1,5 +1,6 @@
 <template>
-  <Movies />
+  <div id="app">
+  <Todo />
   <!-- <div id="app">
     <h1>{{ msg }}</h1>
     <p v-if="isAwesome">Galvanize is AWESOME!!!</p>
@@ -9,15 +10,16 @@
     </ul>
     <p :class="{hideMe: isHidden}">Hide me</p>
   </div> -->
+  </div>
 </template>
 
 <script>
-import Movies from './components/Movies.vue'
+import Todo from './components/Todo.vue'
 
 export default {
   name: 'App',
   components: {
-    Movies
+    Todo
   },
   data () {
     return {

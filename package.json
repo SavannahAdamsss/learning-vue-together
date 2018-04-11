@@ -68,5 +68,15 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SavannahAdamsss/learning-vue-together.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SavannahAdamsss/learning-vue-together/issues"
+  },
+  "homepage": "https://github.com/SavannahAdamsss/learning-vue-together#readme"
 }
